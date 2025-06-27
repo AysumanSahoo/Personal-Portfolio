@@ -1,0 +1,187 @@
+* {
+    margin: 0%;
+    padding: auto;
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(172, 223, 255);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 14px 16px;
+    background-color: rgb(30, 166, 250);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: black;
+    position: flex;
+    top: 0%;
+    width: 100%;
+
+}
+
+nav ul li {
+    margin: 0 5px;
+    /* adjust margin values */
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    font-weight: bold;
+    font-size: 18px;
+    margin-inline: 20px;
+    color: black;
+}
+
+ul li a:hover {
+    color: rgb(21, 174, 235);
+    font-weight: 600;
+
+
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: rgb(21, 174, 235);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.btn:hover {
+    background-color: lightskyblue;
+    border: 2px solid rgb(21, 174, 235);
+}
+.skills h1 {
+    font-size: 40px;
+    color: #444;
+    text-align: center;
+    margin-top: 20px;
+}
+.skills h2{
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+}
+.professionalskills-list{
+    display: flex;
+    flex-direction: column;
+    
+    padding: 20px;
+    background-color: rgb(172, 223, 255);
+    font-size: 20px;
+    color: #444;
+    text-align: justify;
+    margin: 10px auto;
+    width: 80%;
+    list-style: square;
+}
+.softskills-list{
+    display: flex;
+    flex-direction: column;
+    
+    padding: 20px;
+    background-color: rgb(172, 223, 255);
+    font-size: 20px;
+    color: #444;
+    text-align: justify;
+    margin: 10px auto;
+    width: 80%;
+    list-style: square;
+}
+.cursor {
+    text-align: center;
+
+
+}
+.certifications h1{
+    font-size: 40px;
+    color: #444;
+    text-align: center;
+    margin-top: 20px;
+}
+.certifications h3{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    margin-top: 30px;
+}
+.certifications p {
+    font-size: 20px;
+    color: #444;
+    text-align: justify;
+    margin: 20px auto;
+    width: 80%;
+}
+.cursor .btn {
+
+    width: 160px;
+    height: 40px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 66px;
+    margin-top: 66px;
+    background-color: #87cefa;
+    color: rgb(77, 113, 128);
+    width: 92.5%;
+    position: relative;
+    bottom: 0%;
+    align-items: flex-start;
+
+}
+
+.footer h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+.footer .text1 p {
+    margin: 5px 0;
+}
+
+.footer .text1 p a {
+    text-decoration: none;
+    color: #444;
+    font-weight: 500;
+}
+
+.design {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 102.3%;
+    height: 100px;
+    background-color: #87cefa;
+    color: rgb(77, 113, 128);
+    position: relative;
+    bottom: 0%;
+    font-weight: bold;
+}
